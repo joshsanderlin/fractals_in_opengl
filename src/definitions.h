@@ -1,0 +1,2 @@
+// This allows us to change the datatype of our complex numbers, originally we used float's but this didn't allow for very much zooming, as the floating point precision would break down after around 30-40X zoom. Now we use long double's which allows for much greater zoom capacity.
+#define NUM_TYPE float 
